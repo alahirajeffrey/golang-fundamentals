@@ -31,7 +31,7 @@ func handleReurnStaticUserDetails(res http.ResponseWriter, req *http.Request){
 
 
 
-func main() {
+func eleventhMain() {
     // Register the handler function to respond to all requests on the root path "/"
     http.HandleFunc("/", homePageHandle)
 	http.HandleFunc("/return-static-user-details", handleReurnStaticUserDetails)
